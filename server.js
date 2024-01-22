@@ -12,4 +12,9 @@ app.listen(7777, function(){
 
 app.get('/', function(요청, 응답){
     응답.sendFile(__dirname + '/index.html')
+    응답.sendFile(__dirname + '/about.html')
+    응답.sendFile(__dirname + '/contact.html')
+    응답.sendFile(__dirname + '/furniture.html')
+    응답.sendFile(__dirname + '/blog.html')
+
 });
