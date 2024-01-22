@@ -6,8 +6,8 @@
 const express = require('express');
 const app = express();
 
-app.listen(7770, function(){
-    console.log('listening on 7770')
+app.listen(7777, function(){
+    console.log('listening on 7777')
 });
 
 app.get('/', function(요청, 응답){
