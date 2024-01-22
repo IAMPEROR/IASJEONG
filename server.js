@@ -13,7 +13,3 @@ app.listen(7777, function(){
 app.get('/', function(요청, 응답){
     응답.sendFile(__dirname + '/index.html')
 });
-
-app.get('/', function(요청, 응답){
-    응답.send('PROJECT SERVER')
-});
